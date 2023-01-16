@@ -1,0 +1,5 @@
+.photo-grid__item {
+    max-width: 352px;
+    height: 213px; 
+    object-fit: contain;
+}

@@ -1,0 +1,10 @@
+.cover {
+    margin: 92px 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0px 48px;
+}
+.cover:hover {
+    opacity: 0.8;
+}
