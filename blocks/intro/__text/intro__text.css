@@ -7,3 +7,11 @@
     text-align: start;
     margin: 40px auto 33px 0px;
 }
+
+@media (max-width: 320px) {
+    .intro__text {
+        width: 288px;
+        height: 520px;
+        margin: 40px auto 34px;
+    }
+}

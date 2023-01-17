@@ -12,3 +12,29 @@ z-index: 2;
 color: white;
 text-decoration: none;
 }
+
+@media (max-width: 1024px) {
+    .cover__subtitle {
+        top: 379px;
+        left: 332px;
+        }
+   }
+
+@media (max-width: 768px) {
+    .cover__subtitle {
+        top: 299px;
+        left: 204px;
+        }
+}
+
+@media (max-width: 320px) {
+    .cover__subtitle {
+        top: 119px;
+        left: 16px;
+        width: 258px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        }
+}

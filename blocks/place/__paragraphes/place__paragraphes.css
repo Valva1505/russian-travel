@@ -3,3 +3,11 @@
     flex-direction: column;
     gap: 26px;
 }
+
+@media (max-width: 320px) {
+    .place__paragraphes {
+        margin-left: 16px;
+        margin-right: 16px;
+        gap: 25px;
+    }
+}
