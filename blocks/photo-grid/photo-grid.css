@@ -2,10 +2,9 @@
   max-width: 100%;
   box-sizing: border-box;
   margin: 92px 48px;
-  display: grid; 
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
-  
 }
 
 @media (max-width: 1024px) {
