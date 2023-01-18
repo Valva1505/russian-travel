@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 12px;
     margin: 0px;
+    align-self: flex-end;
 }
 @media (max-width: 320px) {
 

@@ -3,15 +3,19 @@
     line-height: 26px;
     font-weight: 400;
     width: 690px;
-    height: 208px;
     text-align: start;
     margin: 40px auto 33px 0px;
+}
+
+@media (max-width: 768px) {
+    .intro__text {
+        width: 100%;
+    } 
 }
 
 @media (max-width: 320px) {
     .intro__text {
         width: 288px;
-        height: 520px;
         margin: 40px auto 34px;
     }
 }

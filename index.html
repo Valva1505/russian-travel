@@ -4,26 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="pages/index.css">
-    <title>Document</title>
+    <title>Путешествия по России</title>
 </head>
 <body class="page">
     <header class="header">
         <img src="./images/header-logo.svg" alt="логотип" class="header__logo">
-        <div class="header__lang_link">
-            <a href="#" class="link header__lang_link_ru">Ru</a>
-            <a href="#" class="link header__lang_link_en">En</a>
-        </div>
+        <nav class="header__lang-links">
+            <a href="#" class="link header__lang-link">Ru</a>
+            <a href="#" class="link header__lang-link">En</a>
+        </nav>
     </header>
     <main>
     <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <div class="lead__image">
-           
-        </div>
+        <img class="lead__image" src="./images/lead-polka.jpg" alt="поезд">
         <p class="lead__caption">ваша полка — верхняя</p>
     </section>
     <section class="intro">
@@ -55,8 +51,8 @@
         <div class="place place-kosa">
             <h2 class="place__title">Куршская коса</h2>
             <nav class="place__website">
-            <a href="#" class="link place__website_url-heading">URL</a>
-            <a href="http://park-kosa.ru" class="link place__website_link">park-kosa.ru</a>
+            <a href="#" class="link place__url-heading">URL</a>
+            <a href="http://park-kosa.ru" class="link place__link">park-kosa.ru</a>
             </nav>
             <img src="./images/place-kosa.jpg" alt="Куршская коса" class="place__image">
             <div class="place__paragraphes">
@@ -72,8 +68,8 @@
         <div class="place place-kolsky">
             <h2 class="place__title">Кольский</h2> 
             <nav class="place__website">
-            <a href="#" class="link place__website_url-heading">URL</a>
-            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="link place__website_link">National Geographic</a>
+            <a href="#" class="link place__url-heading">URL</a>
+            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="link place__link">National Geographic</a>
         </nav>
         <img src="./images/place-kolsky.jpg" alt="Кольский полуостров" class="place__image">
             <div class="place__paragraphes">
@@ -89,8 +85,8 @@
         <div class="place place-altai">
             <h2 class="place__title">Алтай</h2>
             <nav class="place__website">
-            <a href="#" class="link place__website_url-heading">URL</a>
-            <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="link place__website_link">YouTube</a></nav>
+            <a href="#" class="link place__url-heading">URL</a>
+            <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="link place__link">YouTube</a></nav>
             <img src="./images/place-altai.jpg" alt="Алтай" class="place__image">
             <div class="place__paragraphes">
                 <p class="place__paragraph">Алтай — одно из красивейших мест в России.  В первую очередь из-за гор: 
@@ -106,8 +102,8 @@
         <div class="place place-winter-baikal">
             <h2 class="place__title">Зимний Байкал</h2>
             <nav class="place__website">
-            <a href="#" class="link place__website_url-heading">URL</a>
-            <a href="https://vk.com/baikalmile" class="link place__website_link">https://vk.com/baikalmile</a></nav>
+            <a href="#" class="link place__url-heading">URL</a>
+            <a href="https://vk.com/baikalmile" class="link place__link">https://vk.com/baikalmile</a></nav>
             <img src="./images/place-winter-baikal.jpg" alt="зимний Байкал" class="place__image">
             <div class="place__paragraphes">
                 <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, 
@@ -121,8 +117,8 @@
         <div class="place place-karelia">
             <h2 class="place__title">Карелия</h2>
             <nav class="place__website">
-            <a href="#" class="place__website_url-heading link">URL</a>
-            <a href="http://vodlozero.ru" class="place__website_link link">http://vodlozero.ru/</a></nav>
+            <a href="#" class="place__url-heading link">URL</a>
+            <a href="http://vodlozero.ru" class="place__link link">http://vodlozero.ru/</a></nav>
             <img src="./images/place-karelia.jpg" alt="Карелия" class="place__image">
             <div class="place__paragraphes">
                 <p class="place__paragraph">
@@ -136,9 +132,9 @@
         </div>
     </section>
     <section class="cover">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay"></a>
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        <div class="cover__overlay"><a href="https://stampsy.com/na-elektrichkakh-do-baikala"></a></div>
     </section>
 </main>
     <footer class="footer">

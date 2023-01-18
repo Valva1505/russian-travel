@@ -4,15 +4,20 @@
     line-height: 18px;
     font-weight: 400;
     width: 690px;
-    height: 90px;
     margin: 33px auto 0px 0px;
     padding: 0px;
 }
 
+@media (max-width: 768px) {
+
+    .intro__list {
+        width: 100%;
+    } 
+}
 @media (max-width: 320px) {
 
     .intro__list {
         margin: 0px auto 0px 0px;
-        width: 288px;
+
     } 
 }
