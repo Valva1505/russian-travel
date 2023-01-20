@@ -8,10 +8,16 @@
     word-wrap: break-word;
 }
 
+@media (max-width: 1024px) {
+    .lead__title {
+        margin: 48px auto 32px;
+    }
+}
+
 @media (max-width: 768px) {
     .lead__title {
         width: 100%;
-        }
+    }
 }
 
 @media (max-width: 320px) {
@@ -20,5 +26,5 @@
         line-height: 44px;
         width: 288px;
         margin: 48px auto 16px;
-        }
+    }
 }

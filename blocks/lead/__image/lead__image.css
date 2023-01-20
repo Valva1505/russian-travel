@@ -1,25 +1,25 @@
 .lead__image {
-  padding: 0;
-  max-width: 100%;
-  height: auto;
-  margin: 64px 148px 0px;
-  object-fit: contain;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    margin: 64px 148px 0px;
+    object-fit: contain;
 }
 
 @media (max-width: 1024px) {
     .lead__image {
-        margin: 64px 48px 0px;
-     }
+        margin: 56px 48px 0px;
+    }
 }
 
 @media (max-width: 768px) {
     .lead__image {
-        margin: 64px 0px 0px;
-     }
+        margin: 56px 0px 0px;
+    }
 }
 
 @media (max-width: 320px) {
     .lead__image {
         margin: 40px 0px 0px;
-     }
+    }
 }

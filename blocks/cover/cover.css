@@ -1,34 +1,30 @@
 .cover {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 0 48px 92px;
-    width: 100%;
-    height: 740px;
+    margin: 0px auto 0px;
+    padding: 12px 48px 92px;
+    max-width: 1280px;
+    width: calc(100% - 48px * 2);
 }
 
 .cover:hover {
-opacity: 0.8;
+    opacity: 0.8;
 }
 
 @media (max-width: 1024px) {
     .cover {
-        padding: 0px 0px 92px;
-        height: 640px;
+        width: 100%;
+        padding: 12px 0px 92px;
     }
 }
 
 @media (max-width: 768px) {
     .cover {
-        padding: 0px 0px 90px;
-        height: 480px;
+        padding: 17px 0px 90px;
     }
-} 
+}
 
 @media (max-width: 320px) {
     .cover {
-        margin: 66px 0px 64px;
-        padding: 0px 0 px 97px;
-        height: 200px;
+        margin: 66px 0px 0px;
+        padding: 0px 0px 97px;
     }
 }
