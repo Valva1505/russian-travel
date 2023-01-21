@@ -14,7 +14,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 540px) {
     .intro__title {
         margin: 64px 16px 40px 0px;
         font-size: 32px;

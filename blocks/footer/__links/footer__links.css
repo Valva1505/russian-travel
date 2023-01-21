@@ -3,9 +3,10 @@
     flex-direction: row;
     gap: 18px;
     flex-wrap: wrap;
+    padding-right: 16px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 540px) {
     .footer__links {
         display: flex;
         flex-direction: column;

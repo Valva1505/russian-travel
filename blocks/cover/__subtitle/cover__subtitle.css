@@ -6,7 +6,7 @@
     max-width: 360px;
     text-align: center;
     margin: 0px auto 245px;
-    z-index: 2;
+    z-index: 3;
     color: white;
     text-decoration: none;
 }
@@ -23,7 +23,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 540px) {
     .cover__subtitle {
         width: 258px;
         font-weight: 400;

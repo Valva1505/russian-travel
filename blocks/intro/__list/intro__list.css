@@ -13,7 +13,7 @@
         width: 100%;
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 540px) {
     .intro__list {
         margin: 34px auto 0px 0px;
     }
